@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import Navigation from '../components/Navigation';
 import SEO from '../components/SEO';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 export default function Datenschutz() {
   return (
@@ -12,6 +13,7 @@ export default function Datenschutz() {
         canonical="https://bigdaddys-burgerhouse.de/datenschutz"
       />
       <Navigation />
+      <WhatsAppButton />
       <div className="container mx-auto px-6 py-24 mt-20">
         <Link
           to="/"
