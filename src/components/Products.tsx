@@ -2,6 +2,7 @@ import { Flame, Award, ArrowRight, UtensilsCrossed } from 'lucide-react';
 import goulashImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew.jpg';
 import porkoltImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew copy.jpg';
 import langosImage from '../assets/crusty-hungarian-langos-with-cream-ham-grated-cheese-corn-greased-with-garlic.jpg';
+import halaszleImage from '../assets/ukrainian-russian-national-red-soup-borsch-closeup copy.jpg';
 
 const products = [
   {
@@ -29,7 +30,7 @@ const products = [
   {
     name: 'Halászlé',
     description: 'Würzige Fischsuppe mit Karpfen und scharfem Paprika – ein ungarischer Klassiker',
-    image: 'https://i.imgur.com/QPY3Ghc.jpeg',
+    image: halaszleImage,
     price: '14,50€',
     badges: ['Traditionell', 'Scharf'],
     icon: <Flame className="text-red-600" size={20} />
