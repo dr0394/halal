@@ -1,4 +1,5 @@
 import { Award, Heart, Flame } from 'lucide-react';
+import burgerImage from '../assets/craft-burger-is-cooking-black-background-consist-red-sauce-salsa-lettuce-red-onion-pickle-cheese-chilli-green-pepper-air-bun-marbled-meat-beef-made-ideal-loving-hand-made-2.jpg';
 
 export default function About() {
   return (
@@ -48,10 +49,10 @@ export default function About() {
           </div>
 
           <div className="relative mt-8 md:mt-0 overflow-hidden">
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-2 sm:border-4 border-amber-600/20">
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border-2 sm:border-4 border-red-600/20">
               <img
-                src="https://i.imgur.com/QPY3Ghc.jpeg"
-                alt="Team am Grill"
+                src={burgerImage}
+                alt="Big Daddys Burger"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent"></div>
