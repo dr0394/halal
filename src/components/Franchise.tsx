@@ -47,7 +47,7 @@ export default function Franchise() {
             Dein Weg ins <span className="text-amber-500">Business</span>
           </h2>
           <p className="text-xl text-zinc-400 max-w-3xl mx-auto">
-            Werde Teil einer erfolgreichen Franchise-Familie und starte deine eigene Halal Currywurst-Bar
+            Werde Teil einer erfolgreichen Franchise-Familie und starte dein eigenes Restaurant
           </p>
           <div className="w-24 h-1 bg-gradient-to-r from-red-600 via-amber-500 to-red-600 mx-auto mt-6"></div>
         </div>
@@ -61,7 +61,7 @@ export default function Franchise() {
               Unsere Franchise-Philosophie basiert auf <span className="text-amber-500 font-semibold">Partnerschaft auf Augenhöhe</span>. Wir bieten dir nicht nur eine bewährte Marke, sondern ein komplettes Erfolgs­system: von der Standort­auswahl über Marketing bis hin zur Lieferkette.
             </p>
             <p className="text-lg text-zinc-300 leading-relaxed">
-              Mit unserer modernen Currywurst-Bar setzt du auf einen <span className="text-red-600 font-semibold">wachsenden Markt</span>. Street Food boomt, Halal-Produkte werden immer gefragter – die perfekte Kombination für deinen Erfolg.
+              Mit unserem modernen Restaurant-Konzept setzt du auf einen <span className="text-red-600 font-semibold">wachsenden Markt</span>. Authentische ungarische Küche boomt – die perfekte Kombination für deinen Erfolg.
             </p>
 
             <div className="space-y-4 pt-6">

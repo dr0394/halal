@@ -20,14 +20,14 @@ export default function CTA() {
           </div>
 
           <h2 className="text-6xl md:text-7xl font-black text-white mb-6 uppercase tracking-tight leading-none">
-            Bereit für den<br />
+            Bereit für<br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-red-600 to-amber-500">
-              Würstchenhimmel?
+              Genuss pur?
             </span>
           </h2>
 
           <p className="text-2xl text-zinc-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Ob du unsere einzigartige Halal Currywurst probieren oder selbst Teil unserer Erfolgsgeschichte werden möchtest – <span className="text-amber-500 font-bold">jetzt ist der perfekte Moment!</span>
+            Ob du unsere einzigartigen ungarischen Spezialitäten probieren oder selbst Teil unserer Erfolgsgeschichte werden möchtest – <span className="text-amber-500 font-bold">jetzt ist der perfekte Moment!</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
@@ -57,8 +57,8 @@ export default function CTA() {
 
             <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8">
               <div className="text-5xl font-black text-amber-500 mb-3">100%</div>
-              <div className="text-white font-bold uppercase tracking-wide mb-2">Halal</div>
-              <div className="text-zinc-400 text-sm">zertifiziert & geprüft</div>
+              <div className="text-white font-bold uppercase tracking-wide mb-2">Frisch</div>
+              <div className="text-zinc-400 text-sm">täglich zubereitet</div>
             </div>
           </div>
         </div>

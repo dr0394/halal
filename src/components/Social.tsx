@@ -52,7 +52,7 @@ export default function Social() {
 
         <div className="max-w-6xl mx-auto mb-12">
           <h3 className="text-3xl font-black text-white text-center mb-8 uppercase">
-            <span className="text-amber-500">#</span>HalalCurrywurst
+            <span className="text-amber-500">#</span>BigDaddysPassau
           </h3>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -78,16 +78,16 @@ export default function Social() {
 
         <div className="bg-gradient-to-r from-zinc-900 via-zinc-950 to-zinc-900 border-2 border-amber-600/30 rounded-3xl p-12 max-w-4xl mx-auto text-center">
           <h3 className="text-4xl font-black text-white mb-4 uppercase">
-            Zeig uns <span className="text-amber-500">deine</span> Currywurst!
+            Zeig uns <span className="text-amber-500">deinen</span> Genussmoment!
           </h3>
           <p className="text-xl text-zinc-300 mb-8 max-w-2xl mx-auto">
-            Poste dein Foto mit <span className="text-red-600 font-bold">#HalalCurrywurst</span> und werde Teil unserer Genuss-Community. Die besten Bilder teilen wir auf unseren Kanälen!
+            Poste dein Foto mit <span className="text-red-600 font-bold">#BigDaddysPassau</span> und werde Teil unserer Genuss-Community. Die besten Bilder teilen wir auf unseren Kanälen!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-zinc-950 px-8 py-4 rounded-lg font-bold uppercase tracking-wide transition-all transform hover:scale-105 flex items-center justify-center gap-3">
               <Instagram size={20} />
-              @halalcurrywurst folgen
+              @bigdaddyspassau folgen
             </button>
             <button className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-8 py-4 rounded-lg font-bold uppercase tracking-wide transition-all transform hover:scale-105 flex items-center justify-center gap-3">
               <MessageCircle size={20} />

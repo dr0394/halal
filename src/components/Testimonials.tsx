@@ -4,21 +4,21 @@ const testimonials = [
   {
     name: 'Sarah M.',
     role: 'Kundin seit 2023',
-    text: 'Die beste Currywurst der Stadt! Frisch, halal und unglaublich lecker. Die würzige Sauce ist einfach perfekt!',
+    text: 'Die besten ungarischen Gerichte in Passau! Frisch, authentisch und unglaublich lecker. Die Gewürze sind einfach perfekt!',
     rating: 5,
-    location: 'Berlin'
+    location: 'Passau'
   },
   {
     name: 'Ahmed K.',
     role: 'Franchise-Partner',
-    text: 'Als Franchise-Partner bin ich begeistert vom Support und dem durchdachten Konzept. Die Kunden lieben unsere Currywurst!',
+    text: 'Als Franchise-Partner bin ich begeistert vom Support und dem durchdachten Konzept. Die Kunden lieben unsere Spezialitäten!',
     rating: 5,
     location: 'Hamburg'
   },
   {
     name: 'Lisa W.',
     role: 'Stammkundin',
-    text: 'Endlich eine Currywurst, die meinen Standards entspricht. 100% Halal, toller Geschmack und super freundliches Team.',
+    text: 'Endlich ein Restaurant, das meinen Standards entspricht. Authentisch, toller Geschmack und super freundliches Team.',
     rating: 5,
     location: 'München'
   },

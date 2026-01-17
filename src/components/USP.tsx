@@ -3,8 +3,8 @@ import { Award, Zap, ChefHat, TrendingUp, Shield, Sparkles } from 'lucide-react'
 const benefits = [
   {
     icon: <Award size={40} />,
-    title: 'Halal & Qualität',
-    description: '100% Halal-zertifiziert mit höchsten Qualitätsstandards und transparenter Herkunft'
+    title: 'Premium Qualität',
+    description: 'Höchste Qualitätsstandards mit transparenter Herkunft und täglicher Frische'
   },
   {
     icon: <Zap size={40} />,
@@ -89,7 +89,7 @@ export default function USP() {
           </h3>
 
           <p className="text-xl text-zinc-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            Jede Currywurst wird mit Leidenschaft zubereitet. Wir verwenden nur erstklassige, Halal-zertifizierte Zutaten und bereiten alles frisch zu. Das schmeckst du in jedem Bissen!
+            Jedes Gericht wird mit Leidenschaft zubereitet. Wir verwenden nur erstklassige Zutaten und bereiten alles frisch zu. Das schmeckst du in jedem Bissen!
           </p>
 
           <div className="flex flex-wrap justify-center gap-6">
@@ -103,7 +103,7 @@ export default function USP() {
             </div>
             <div className="flex items-center gap-3 bg-zinc-900/50 border border-zinc-800 rounded-full px-6 py-3">
               <div className="w-3 h-3 bg-amber-500 rounded-full animate-pulse"></div>
-              <span className="text-white font-semibold">100% Halal</span>
+              <span className="text-white font-semibold">100% Authentisch</span>
             </div>
           </div>
         </div>

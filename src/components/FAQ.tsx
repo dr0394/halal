@@ -6,8 +6,8 @@ const faqs = [
     category: 'Produkte',
     questions: [
       {
-        q: 'Sind alle eure Produkte wirklich 100% Halal?',
-        a: 'Ja, absolut! Alle unsere Fleischprodukte sind 100% Halal-zertifiziert. Wir arbeiten ausschließlich mit geprüften Lieferanten zusammen und können die Halal-Zertifizierung jederzeit nachweisen.'
+        q: 'Woher kommen eure Zutaten?',
+        a: 'Wir arbeiten ausschließlich mit geprüften regionalen Lieferanten zusammen und achten auf höchste Qualitätsstandards. Alle Zutaten werden täglich frisch geliefert und verarbeitet.'
       },
       {
         q: 'Habt ihr auch vegetarische oder vegane Optionen?',

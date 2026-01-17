@@ -6,14 +6,14 @@ const news = [
     date: '15. Juni 2024',
     category: 'Aktion',
     image: 'https://i.imgur.com/G90AZCX.jpeg',
-    description: 'Unsere neue BBQ-Mango-Currywurst bringt tropisches Flair auf deinen Teller!'
+    description: 'Unsere neuen Sommer-Burger bringen tropisches Flair auf deinen Teller!'
   },
   {
     title: 'Neue Standorte in München',
     date: '5. Juni 2024',
     category: 'Expansion',
     image: 'https://i.imgur.com/QPY3Ghc.jpeg',
-    description: 'Gleich drei neue Franchise-Partner eröffnen ihre Currywurst-Bars in München.'
+    description: 'Gleich drei neue Franchise-Partner eröffnen ihre Restaurants in München.'
   },
   {
     title: 'Winterwurst ist zurück',
