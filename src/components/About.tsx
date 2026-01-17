@@ -29,19 +29,19 @@ export default function About() {
               <div className="text-center">
                 <div className="bg-red-600/10 border border-red-600/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-6 hover:bg-red-600/20 transition-colors">
                   <Award className="text-red-500 mx-auto mb-2 sm:mb-3" size={24} />
-                  <div className="text-white font-bold text-xs sm:text-sm uppercase">Qualität</div>
+                  <div className="text-white font-bold text-xs sm:text-sm uppercase text-center">Qualität</div>
                 </div>
               </div>
               <div className="text-center">
                 <div className="bg-red-600/10 border border-red-600/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-6 hover:bg-red-600/20 transition-colors">
                   <Heart className="text-red-600 mx-auto mb-2 sm:mb-3" size={24} />
-                  <div className="text-white font-bold text-xs sm:text-sm uppercase">Leidenschaft</div>
+                  <div className="text-white font-bold text-xs sm:text-sm uppercase text-center">Leidenschaft</div>
                 </div>
               </div>
               <div className="text-center">
                 <div className="bg-red-600/10 border border-red-600/30 rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-6 hover:bg-red-600/20 transition-colors">
                   <Flame className="text-red-500 mx-auto mb-2 sm:mb-3" size={24} />
-                  <div className="text-white font-bold text-xs sm:text-sm uppercase">Frisch</div>
+                  <div className="text-white font-bold text-xs sm:text-sm uppercase text-center">Frisch</div>
                 </div>
               </div>
             </div>
