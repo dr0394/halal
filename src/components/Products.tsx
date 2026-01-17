@@ -1,10 +1,11 @@
 import { Flame, Award, ArrowRight, UtensilsCrossed } from 'lucide-react';
+import goulashImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew.jpg';
 
 const products = [
   {
     name: 'Gulasch',
     description: 'Traditionelles ungarisches Gulasch mit zartem Rindfleisch, Paprika und Gewürzen',
-    image: 'https://i.imgur.com/G90AZCX.jpeg',
+    image: goulashImage,
     price: '12,90€',
     badges: ['Klassiker', 'Hausgemacht']
   },
@@ -61,11 +62,11 @@ export default function Products() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/50 to-transparent"></div>
 
-                <div className="absolute top-3 sm:top-4 left-3 sm:left-4 flex gap-1.5 sm:gap-2">
+                <div className="absolute top-3 sm:top-4 left-3 sm:left-4 flex flex-wrap gap-1.5 sm:gap-2 max-w-[calc(100%-6rem)]">
                   {product.badges.map((badge, i) => (
                     <span
                       key={i}
-                      className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-bold uppercase ${
+                      className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-bold uppercase whitespace-nowrap ${
                         badge === 'Klassiker' || badge === 'Hausgemacht' || badge === 'Beliebt'
                           ? 'bg-red-600 text-white'
                           : badge === 'Scharf'
