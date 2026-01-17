@@ -1,6 +1,7 @@
 import { Flame, Award, ArrowRight, UtensilsCrossed } from 'lucide-react';
 import goulashImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew.jpg';
 import porkoltImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew copy.jpg';
+import langosImage from '../assets/crusty-hungarian-langos-with-cream-ham-grated-cheese-corn-greased-with-garlic.jpg';
 
 const products = [
   {
@@ -21,9 +22,9 @@ const products = [
   {
     name: 'Lángos',
     description: 'Frittierter Hefeteig mit Sauerrahm, Käse und Knoblauch',
-    image: 'https://i.imgur.com/G90AZCX.jpeg',
+    image: langosImage,
     price: '8,90€',
-    badges: ['Beliebt', 'Vegetarisch']
+    badges: ['Beliebt', 'Vegetarisch möglich']
   },
   {
     name: 'Halászlé',
@@ -53,7 +54,7 @@ export default function Products() {
           {products.map((product, index) => (
             <div
               key={index}
-              className="group bg-zinc-900/50 border border-zinc-800 rounded-2xl sm:rounded-3xl overflow-hidden hover:border-amber-600/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-amber-900/20"
+              className="group bg-zinc-900/50 border border-zinc-800 rounded-2xl sm:rounded-3xl overflow-hidden hover:border-amber-600/50 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-amber-900/20 flex flex-col"
             >
               <div className="relative h-48 sm:h-56 md:h-64 overflow-hidden">
                 <img
@@ -72,7 +73,7 @@ export default function Products() {
                           ? 'bg-red-600 text-white'
                           : badge === 'Scharf'
                           ? 'bg-orange-600 text-white'
-                          : badge === 'Vegetarisch'
+                          : badge === 'Vegetarisch' || badge === 'Vegetarisch möglich'
                           ? 'bg-green-600 text-white'
                           : badge === 'Spezialität' || badge === 'Traditionell'
                           ? 'bg-red-700 text-white'
@@ -95,11 +96,11 @@ export default function Products() {
                 </div>
               </div>
 
-              <div className="p-4 sm:p-5 md:p-6">
+              <div className="p-4 sm:p-5 md:p-6 flex flex-col flex-1">
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-2 sm:mb-3 uppercase tracking-wide">
                   {product.name}
                 </h3>
-                <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4 sm:mb-6">
+                <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4 sm:mb-6 flex-1">
                   {product.description}
                 </p>
                 <a href="mailto:zoltan.f@hotmail.de" className="w-full bg-red-600 hover:bg-red-700 text-white py-2.5 sm:py-3 rounded-lg font-bold text-sm sm:text-base uppercase tracking-wide transition-colors flex items-center justify-center gap-2">
