@@ -1,10 +1,16 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import Navigation from '../components/Navigation';
+import SEO from '../components/SEO';
 
 export default function Datenschutz() {
   return (
     <div className="min-h-screen bg-zinc-950">
+      <SEO
+        title="Datenschutzerklärung | Big Daddys Burgerhouse Passau"
+        description="Datenschutzerklärung von Big Daddys Burgerhouse in Passau. Informationen zum Schutz Ihrer persönlichen Daten gemäß DSGVO."
+        canonical="https://bigdaddys-burgerhouse.de/datenschutz"
+      />
       <Navigation />
       <div className="container mx-auto px-6 py-24 mt-20">
         <Link
@@ -65,12 +71,10 @@ export default function Datenschutz() {
               <h3 className="text-xl font-bold text-amber-500 mt-6 mb-3">Hinweis zur verantwortlichen Stelle</h3>
               <p>
                 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br /><br />
-                <strong className="text-white">Halal Currywurst GmbH</strong><br />
-                Currywurststraße 1<br />
-                10115 Berlin<br />
+                <strong className="text-white">Big Daddys Burgerhouse</strong><br />
+                94032 Passau<br />
                 Deutschland<br /><br />
-                Telefon: +49 (0) 123 456 7890<br />
-                E-Mail: datenschutz@halal-currywurst.de
+                E-Mail: zoltan.f@hotmail.de
               </p>
             </section>
 
@@ -107,31 +111,24 @@ export default function Datenschutz() {
                 <li>Die Datenübertragbarkeit zu verlangen</li>
               </ul>
               <p className="mt-4">
-                Für die Ausübung dieser Rechte wenden Sie sich bitte an: <a href="mailto:datenschutz@halal-currywurst.de" className="text-amber-500 hover:text-amber-400 transition-colors">datenschutz@halal-currywurst.de</a>
+                Für die Ausübung dieser Rechte wenden Sie sich bitte an: <a href="mailto:zoltan.f@hotmail.de" className="text-amber-500 hover:text-amber-400 transition-colors">zoltan.f@hotmail.de</a>
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4 uppercase">6. Franchise-Anfragen</h2>
+              <h2 className="text-2xl font-bold text-white mb-4 uppercase">6. Kontaktanfragen</h2>
               <p>
-                Wenn Sie sich über unser Kontaktformular als Franchise-Partner bewerben, verarbeiten wir Ihre angegebenen personenbezogenen Daten (Name, E-Mail, Telefonnummer, Standortwunsch, Nachricht) zur Bearbeitung Ihrer Anfrage und für eventuelle Rückfragen.
+                Wenn Sie uns über unser Kontaktformular kontaktieren, verarbeiten wir Ihre angegebenen personenbezogenen Daten (Name, E-Mail, Telefonnummer, Nachricht) zur Bearbeitung Ihrer Anfrage und für eventuelle Rückfragen.
               </p>
               <p className="mt-4">
-                Diese Daten werden ausschließlich für den Zweck der Franchise-Anbahnung verwendet und nicht an Dritte weitergegeben. Nach Abschluss oder Abbruch des Bewerbungsprozesses werden Ihre Daten gemäß den gesetzlichen Aufbewahrungsfristen gelöscht, sofern Sie nicht in eine weitere Verwendung eingewilligt haben.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4 uppercase">7. Bestellungen</h2>
-              <p>
-                Bei Bestellungen über unsere Website oder über Drittanbieter-Plattformen werden die für die Bestellabwicklung notwendigen Daten (Name, Lieferadresse, E-Mail, Telefonnummer) erfasst und verarbeitet. Diese Daten werden nur für die Auftragsabwicklung verwendet und an unsere Lieferpartner weitergegeben, soweit dies für die Lieferung erforderlich ist.
+                Diese Daten werden ausschließlich für den Zweck der Kontaktaufnahme verwendet und nicht an Dritte weitergegeben. Die Daten werden gemäß den gesetzlichen Aufbewahrungsfristen nach Bearbeitung Ihrer Anfrage gelöscht.
               </p>
             </section>
 
             <section className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
               <p className="text-sm text-zinc-400">
-                <strong className="text-white">Stand:</strong> Dezember 2024<br />
-                Diese Datenschutzerklärung wurde zuletzt am 15.12.2024 aktualisiert.
+                <strong className="text-white">Stand:</strong> Januar 2026<br />
+                Diese Datenschutzerklärung wurde zuletzt am 17.01.2026 aktualisiert.
               </p>
             </section>
           </div>

@@ -1,10 +1,16 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import Navigation from '../components/Navigation';
+import SEO from '../components/SEO';
 
 export default function Impressum() {
   return (
     <div className="min-h-screen bg-zinc-950">
+      <SEO
+        title="Impressum | Big Daddys Burgerhouse Passau"
+        description="Impressum und rechtliche Angaben von Big Daddys Burgerhouse in Passau. Kontaktinformationen und verantwortliche Stelle gemäß TMG."
+        canonical="https://bigdaddys-burgerhouse.de/impressum"
+      />
       <Navigation />
       <div className="container mx-auto px-6 py-24 mt-20">
         <Link
@@ -24,9 +30,8 @@ export default function Impressum() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4 uppercase">Angaben gemäß § 5 TMG</h2>
               <p>
-                <strong className="text-amber-500">Halal Currywurst GmbH</strong><br />
-                Currywurststraße 1<br />
-                10115 Berlin<br />
+                <strong className="text-amber-500">Big Daddys Burgerhouse</strong><br />
+                94032 Passau<br />
                 Deutschland
               </p>
             </section>
@@ -34,26 +39,15 @@ export default function Impressum() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4 uppercase">Kontakt</h2>
               <p>
-                <strong>Telefon:</strong> +49 (0) 123 456 7890<br />
-                <strong>E-Mail:</strong> info@halal-currywurst.de<br />
-                <strong>Website:</strong> www.halal-currywurst.de
+                <strong>E-Mail:</strong> zoltan.f@hotmail.de<br />
+                <strong>Website:</strong> www.bigdaddys-burgerhouse.de
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold text-white mb-4 uppercase">Vertreten durch</h2>
               <p>
-                Geschäftsführer: Max Mustermann<br />
-                Prokurist: Erika Musterfrau
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-bold text-white mb-4 uppercase">Registereintrag</h2>
-              <p>
-                <strong>Handelsregister:</strong> HRB 123456<br />
-                <strong>Registergericht:</strong> Amtsgericht Berlin-Charlottenburg<br />
-                <strong>Umsatzsteuer-ID:</strong> DE123456789
+                Inhaber: Big Daddys Burgerhouse
               </p>
             </section>
 
@@ -61,9 +55,8 @@ export default function Impressum() {
               <h2 className="text-2xl font-bold text-white mb-4 uppercase">Verantwortlich für den Inhalt</h2>
               <p>
                 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br />
-                Max Mustermann<br />
-                Currywurststraße 1<br />
-                10115 Berlin
+                Big Daddys Burgerhouse<br />
+                94032 Passau
               </p>
             </section>
 

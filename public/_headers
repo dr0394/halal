@@ -6,6 +6,8 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https: blob:; font-src 'self' data:; connect-src 'self' https:; frame-ancestors 'none';
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-DNS-Prefetch-Control: on
 
 # Cache Headers für statische Assets
 /assets/*
@@ -22,6 +24,20 @@
   Cache-Control: public, max-age=31536000, immutable
 /*.webp
   Cache-Control: public, max-age=31536000, immutable
+/*.gif
+  Cache-Control: public, max-age=31536000, immutable
+/*.ico
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache für Fonts
+/*.woff
+  Cache-Control: public, max-age=31536000, immutable
+/*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+/*.ttf
+  Cache-Control: public, max-age=31536000, immutable
+/*.eot
+  Cache-Control: public, max-age=31536000, immutable
 
 # HTML nicht cachen
 /*.html
@@ -31,6 +47,10 @@
 /sw.js
   Cache-Control: public, max-age=0, must-revalidate
 
-# Manifest
+# Manifest und wichtige Dateien
 /manifest.json
+  Cache-Control: public, max-age=86400
+/robots.txt
+  Cache-Control: public, max-age=86400
+/sitemap.xml
   Cache-Control: public, max-age=86400
