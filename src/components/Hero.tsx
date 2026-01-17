@@ -9,8 +9,8 @@ export default function Hero() {
 
       <div className="relative z-10 container mx-auto px-6 py-20 text-center">
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-          <div className="inline-block px-6 py-2 bg-amber-600/20 border border-amber-600/40 rounded-lg">
-            <span className="text-amber-500 font-bold text-sm tracking-wider uppercase">100% Halal</span>
+          <div className="inline-block px-6 py-2 bg-red-600/20 border border-red-600/40 rounded-lg">
+            <span className="text-red-500 font-bold text-sm tracking-wider uppercase">16 Jahre Erfahrung</span>
           </div>
 
           <div className="bg-white rounded-lg p-4 shadow-2xl flex items-center gap-3">
@@ -27,51 +27,46 @@ export default function Hero() {
                 ))}
               </div>
               <div className="text-xs font-bold text-zinc-800">4.8 von 5.0</div>
-              <div className="text-xs text-zinc-600">2.500+ Bewertungen</div>
+              <div className="text-xs text-zinc-600">1.200+ Bewertungen</div>
             </div>
           </div>
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black text-white mb-4 md:mb-6 tracking-tight uppercase leading-none px-4">
-          Deine Halal<br/>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500">
-            Currywurst
+          Big Daddys<br/>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-red-400 to-red-600">
+            Burgerhouse
           </span>
         </h1>
 
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-red-600 mb-6 md:mb-8 uppercase tracking-wide px-4">
-          Dein Genuss
+          Ungarische Spezialitäten
         </h2>
 
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-zinc-300 mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed px-6">
-          100% Halal, 100% Geschmack – erlebe Currywurst neu!<br/>
-          <span className="text-amber-500 font-semibold">Frisch. Würzig. Unvergesslich.</span>
+          Persönlichkeit, Qualität und Ehrlichkeit – seit 16 Jahren!<br/>
+          <span className="text-red-500 font-semibold">Authentisch. Leidenschaftlich. Unvergesslich.</span>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <button className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-10 py-5 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-red-900/50 flex items-center justify-center gap-3 w-full sm:w-[320px]">
-            Jetzt bestellen
+          <a href="mailto:zoltan.f@hotmail.de" className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-10 py-5 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-red-900/50 flex items-center justify-center gap-3 w-full sm:w-[320px]">
+            Kontaktieren Sie uns
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
-          </button>
-
-          <button className="group bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-zinc-950 px-10 py-5 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-amber-900/50 flex items-center justify-center gap-3 w-full sm:w-[320px]">
-            Franchise-Info
-            <Play className="group-hover:translate-x-1 transition-transform" size={20} />
-          </button>
+          </a>
         </div>
 
         <div className="mt-12 md:mt-20 grid grid-cols-3 gap-4 sm:gap-8 max-w-4xl mx-auto px-4">
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl md:text-5xl font-black text-amber-500 mb-1 md:mb-2">50+</div>
-            <div className="text-zinc-400 uppercase text-xs sm:text-sm tracking-wide">Standorte</div>
+            <div className="text-3xl sm:text-4xl md:text-5xl font-black text-red-500 mb-1 md:mb-2">16</div>
+            <div className="text-zinc-400 uppercase text-xs sm:text-sm tracking-wide">Jahre</div>
           </div>
           <div className="text-center">
             <div className="text-3xl sm:text-4xl md:text-5xl font-black text-red-600 mb-1 md:mb-2">100%</div>
-            <div className="text-zinc-400 uppercase text-xs sm:text-sm tracking-wide">Halal</div>
+            <div className="text-zinc-400 uppercase text-xs sm:text-sm tracking-wide">Qualität</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl sm:text-4xl md:text-5xl font-black text-amber-500 mb-1 md:mb-2">25+</div>
-            <div className="text-zinc-400 uppercase text-xs sm:text-sm tracking-wide">Sorten</div>
+            <div className="text-3xl sm:text-4xl md:text-5xl font-black text-red-500 mb-1 md:mb-2">♥</div>
+            <div className="text-zinc-400 uppercase text-xs sm:text-sm tracking-wide">Leidenschaft</div>
           </div>
         </div>
       </div>

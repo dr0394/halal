@@ -1,35 +1,35 @@
-import { Flame, Leaf, Award, ArrowRight } from 'lucide-react';
+import { Flame, Award, ArrowRight, UtensilsCrossed } from 'lucide-react';
 
 const products = [
   {
-    name: 'Classic Currywurst',
-    description: 'Die Original Halal Currywurst mit hausgemachter Curry-Sauce und goldenen Pommes',
+    name: 'Gulasch',
+    description: 'Traditionelles ungarisches Gulasch mit zartem Rindfleisch, Paprika und Gewürzen',
     image: 'https://i.imgur.com/G90AZCX.jpeg',
-    price: '7,90€',
-    badges: ['Halal', 'Bestseller']
+    price: '12,90€',
+    badges: ['Klassiker', 'Hausgemacht']
   },
   {
-    name: 'Spicy Chili Wurst',
-    description: 'Für die Mutigen: Feurige Chili-Sauce mit extra Jalapeños und scharfer Note',
+    name: 'Pörkölt',
+    description: 'Herzhaftes Paprikaschgulasch nach original ungarischem Rezept',
     image: 'https://i.imgur.com/QPY3Ghc.jpeg',
-    price: '8,50€',
-    badges: ['Halal', 'Scharf'],
+    price: '13,50€',
+    badges: ['Spezialität', 'Scharf'],
     icon: <Flame className="text-red-600" size={20} />
   },
   {
-    name: 'BBQ Smokehouse',
-    description: 'Rauchige BBQ-Sauce mit Röstzwiebeln und knackigen Bacon-Bits',
+    name: 'Lángos',
+    description: 'Frittierter Hefeteig mit Sauerrahm, Käse und Knoblauch',
     image: 'https://i.imgur.com/G90AZCX.jpeg',
     price: '8,90€',
-    badges: ['Halal', 'Smoky']
+    badges: ['Beliebt', 'Vegetarisch']
   },
   {
-    name: 'Veggie Power',
-    description: 'Knusprige Tofu-Wurst mit milder Curry-Sauce – 100% pflanzlich, 100% Geschmack',
+    name: 'Halászlé',
+    description: 'Würzige Fischsuppe mit Karpfen und scharfem Paprika – ein ungarischer Klassiker',
     image: 'https://i.imgur.com/QPY3Ghc.jpeg',
-    price: '7,50€',
-    badges: ['Vegan', 'Veggie'],
-    icon: <Leaf className="text-green-500" size={20} />
+    price: '14,50€',
+    badges: ['Traditionell', 'Scharf'],
+    icon: <Flame className="text-red-600" size={20} />
   }
 ];
 
@@ -39,12 +39,12 @@ export default function Products() {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-3 md:mb-4 uppercase tracking-tight">
-            Unsere <span className="text-red-600">Currywurst</span> Kreationen
+            Ungarische <span className="text-red-600">Spezialitäten</span>
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto px-4">
-            Von klassisch bis innovativ – jede Wurst ein Geschmackserlebnis
+            Authentische ungarische Küche mit Tradition und Leidenschaft
           </p>
-          <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-red-600 via-amber-500 to-red-600 mx-auto mt-4 sm:mt-6"></div>
+          <div className="w-16 sm:w-20 md:w-24 h-1 bg-gradient-to-r from-red-600 via-red-500 to-red-600 mx-auto mt-4 sm:mt-6"></div>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 md:mb-16">
@@ -66,12 +66,14 @@ export default function Products() {
                     <span
                       key={i}
                       className={`px-2 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs font-bold uppercase ${
-                        badge === 'Halal' || badge === 'Bestseller'
-                          ? 'bg-amber-600 text-zinc-950'
-                          : badge === 'Scharf'
+                        badge === 'Klassiker' || badge === 'Hausgemacht' || badge === 'Beliebt'
                           ? 'bg-red-600 text-white'
-                          : badge === 'Vegan' || badge === 'Veggie'
+                          : badge === 'Scharf'
+                          ? 'bg-orange-600 text-white'
+                          : badge === 'Vegetarisch'
                           ? 'bg-green-600 text-white'
+                          : badge === 'Spezialität' || badge === 'Traditionell'
+                          ? 'bg-red-700 text-white'
                           : 'bg-zinc-700 text-white'
                       }`}
                     >
@@ -98,39 +100,39 @@ export default function Products() {
                 <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4 sm:mb-6">
                   {product.description}
                 </p>
-                <button className="w-full bg-red-600 hover:bg-red-700 text-white py-2.5 sm:py-3 rounded-lg font-bold text-sm sm:text-base uppercase tracking-wide transition-colors flex items-center justify-center gap-2">
-                  Jetzt bestellen
+                <a href="mailto:zoltan.f@hotmail.de" className="w-full bg-red-600 hover:bg-red-700 text-white py-2.5 sm:py-3 rounded-lg font-bold text-sm sm:text-base uppercase tracking-wide transition-colors flex items-center justify-center gap-2">
+                  Anfragen
                   <ArrowRight size={16} />
-                </button>
+                </a>
               </div>
             </div>
           ))}
         </div>
 
-        <div className="bg-gradient-to-r from-amber-600/10 via-amber-500/10 to-amber-600/10 border border-amber-600/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 max-w-4xl mx-auto">
+        <div className="bg-gradient-to-r from-red-600/10 via-red-500/10 to-red-600/10 border border-red-600/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-6 sm:gap-8">
-            <div className="bg-amber-600 rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex-shrink-0">
-              <Award className="text-zinc-950" size={48} />
+            <div className="bg-red-600 rounded-2xl sm:rounded-3xl p-6 sm:p-8 flex-shrink-0">
+              <Award className="text-white" size={48} />
             </div>
             <div className="flex-1 text-center md:text-left">
               <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-3 sm:mb-4 uppercase">
-                Unser Halal-Versprechen
+                Unser Qualitätsversprechen
               </h3>
               <p className="text-sm sm:text-base text-zinc-300 leading-relaxed mb-3 sm:mb-4">
-                Jede unserer Würste ist <span className="text-amber-500 font-bold">100% Halal-zertifiziert</span>. Wir arbeiten ausschließlich mit geprüften Lieferanten zusammen und garantieren höchste Qualitätsstandards. Von der Auswahl des Fleisches bis zur Zubereitung – alles nach islamischen Speisevorschriften.
+                Jedes Gericht wird nach <span className="text-red-500 font-bold">traditionellen ungarischen Rezepten</span> zubereitet. Wir arbeiten ausschließlich mit frischen Zutaten und garantieren höchste Qualitätsstandards. Von der Auswahl der Produkte bis zur Zubereitung – alles mit Leidenschaft und Ehrlichkeit.
               </p>
               <div className="flex flex-wrap gap-3 sm:gap-4 justify-center md:justify-start text-xs sm:text-sm">
-                <div className="flex items-center gap-2 text-amber-500 font-semibold">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-                  Zertifizierte Halal-Produktion
+                <div className="flex items-center gap-2 text-red-500 font-semibold">
+                  <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                  Traditionelle Rezepte
                 </div>
-                <div className="flex items-center gap-2 text-amber-500 font-semibold">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-                  Geprüfte Lieferkette
+                <div className="flex items-center gap-2 text-red-500 font-semibold">
+                  <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                  Frische Zutaten
                 </div>
-                <div className="flex items-center gap-2 text-amber-500 font-semibold">
-                  <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
-                  Transparente Herkunft
+                <div className="flex items-center gap-2 text-red-500 font-semibold">
+                  <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+                  Mit Leidenschaft gekocht
                 </div>
               </div>
             </div>

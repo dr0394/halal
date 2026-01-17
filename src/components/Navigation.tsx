@@ -27,10 +27,7 @@ export default function Navigation() {
 
   const navLinks = [
     { name: 'Über uns', id: 'about' },
-    { name: 'Produkte', id: 'products' },
-    { name: 'Franchise', id: 'franchise' },
-    { name: 'Standorte', id: 'locations' },
-    { name: 'News', id: 'news' },
+    { name: 'Speisekarte', id: 'products' },
     { name: 'Kontakt', id: 'contact' }
   ];
 
@@ -45,15 +42,15 @@ export default function Navigation() {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="bg-gradient-to-br from-amber-600 to-amber-700 rounded-lg p-2 group-hover:scale-110 transition-transform">
-              <div className="text-zinc-950 font-black text-xl">HC</div>
+            <div className="bg-gradient-to-br from-red-600 to-red-700 rounded-lg p-2 group-hover:scale-110 transition-transform">
+              <div className="text-white font-black text-xl">BD</div>
             </div>
             <div>
               <div className="text-white font-black text-xl uppercase leading-none">
-                Halal
+                Big Daddys
               </div>
-              <div className="text-amber-500 font-black text-sm uppercase leading-none">
-                Currywurst
+              <div className="text-red-500 font-black text-sm uppercase leading-none">
+                Burgerhouse
               </div>
             </div>
           </Link>
@@ -81,12 +78,9 @@ export default function Navigation() {
             )}
 
             <div className="flex items-center gap-3 ml-4">
-              <button className="bg-amber-600 hover:bg-amber-700 text-zinc-950 px-6 py-3 rounded-lg font-bold uppercase text-sm tracking-wide transition-all transform hover:scale-105">
-                Bestellen
-              </button>
-              <button className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-bold uppercase text-sm tracking-wide transition-all transform hover:scale-105">
-                Franchise
-              </button>
+              <a href="mailto:zoltan.f@hotmail.de" className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-bold uppercase text-sm tracking-wide transition-all transform hover:scale-105">
+                Kontakt
+              </a>
             </div>
           </div>
 
@@ -124,12 +118,9 @@ export default function Navigation() {
             )}
 
             <div className="space-y-3 pt-4 border-t border-zinc-900">
-              <button className="w-full bg-amber-600 hover:bg-amber-700 text-zinc-950 px-6 py-4 rounded-lg font-bold uppercase text-sm tracking-wide transition-all">
-                Bestellen
-              </button>
-              <button className="w-full bg-red-600 hover:bg-red-700 text-white px-6 py-4 rounded-lg font-bold uppercase text-sm tracking-wide transition-all">
-                Franchise
-              </button>
+              <a href="mailto:zoltan.f@hotmail.de" className="block w-full bg-red-600 hover:bg-red-700 text-white px-6 py-4 rounded-lg font-bold uppercase text-sm tracking-wide transition-all text-center">
+                Kontakt
+              </a>
             </div>
           </div>
         </div>
