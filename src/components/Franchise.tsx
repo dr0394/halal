@@ -104,10 +104,10 @@ export default function Franchise() {
               </div>
             </div>
 
-            <button className="w-full mt-8 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white py-4 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-xl shadow-red-900/50 flex items-center justify-center gap-3">
-              Jetzt Franchise-Partner werden
+            <a href="tel:+436769492394" className="w-full mt-8 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white py-4 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-xl shadow-red-900/50 flex items-center justify-center gap-3">
+              Jetzt anrufen
               <ArrowRight />
-            </button>
+            </a>
           </div>
         </div>
 

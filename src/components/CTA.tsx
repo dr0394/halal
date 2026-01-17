@@ -31,15 +31,15 @@ export default function CTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            <button className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-6 rounded-lg font-bold text-xl uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-red-900/50 flex items-center gap-3">
-              Jetzt bestellen
+            <a href="tel:+436769492394" className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-12 py-6 rounded-lg font-bold text-xl uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-red-900/50 flex items-center gap-3">
+              Jetzt anrufen
               <ArrowRight className="group-hover:translate-x-2 transition-transform" size={24} />
-            </button>
+            </a>
 
-            <button className="group bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-zinc-950 px-12 py-6 rounded-lg font-bold text-xl uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-amber-900/50 flex items-center gap-3">
-              Franchise starten
+            <a href="tel:+436769492394" className="group bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-zinc-950 px-12 py-6 rounded-lg font-bold text-xl uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-amber-900/50 flex items-center gap-3">
+              Jetzt anrufen
               <ArrowRight className="group-hover:translate-x-2 transition-transform" size={24} />
-            </button>
+            </a>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">

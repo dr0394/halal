@@ -49,8 +49,8 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <a href="mailto:zoltan.f@hotmail.de" className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-10 py-5 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-red-900/50 flex items-center justify-center gap-3 w-full sm:w-[320px]">
-            Kontaktieren Sie uns
+          <a href="tel:+436769492394" className="group bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-10 py-5 rounded-lg font-bold text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-2xl shadow-red-900/50 flex items-center justify-center gap-3 w-full sm:w-[320px]">
+            Jetzt anrufen
             <ArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

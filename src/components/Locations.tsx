@@ -66,9 +66,9 @@ export default function Locations() {
           <p className="text-zinc-300 text-sm sm:text-base md:text-lg mb-4 sm:mb-6">
             Werde Franchise-Partner und bringe die beste Halal Currywurst in deine Region!
           </p>
-          <button className="bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-zinc-950 px-6 sm:px-8 md:px-10 py-3 sm:py-3.5 md:py-4 rounded-lg font-bold text-sm sm:text-base md:text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-xl shadow-amber-900/50">
-            Jetzt Partner werden
-          </button>
+          <a href="tel:+436769492394" className="inline-block bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-zinc-950 px-6 sm:px-8 md:px-10 py-3 sm:py-3.5 md:py-4 rounded-lg font-bold text-sm sm:text-base md:text-lg uppercase tracking-wide transition-all transform hover:scale-105 shadow-xl shadow-amber-900/50">
+            Jetzt anrufen
+          </a>
         </div>
       </div>
     </section>
