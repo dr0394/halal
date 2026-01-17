@@ -1,5 +1,6 @@
 import { Flame, Award, ArrowRight, UtensilsCrossed } from 'lucide-react';
 import goulashImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew.jpg';
+import porkoltImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew copy.jpg';
 
 const products = [
   {
@@ -12,7 +13,7 @@ const products = [
   {
     name: 'Pörkölt',
     description: 'Herzhaftes Paprikaschgulasch nach original ungarischem Rezept',
-    image: 'https://i.imgur.com/QPY3Ghc.jpeg',
+    image: porkoltImage,
     price: '13,50€',
     badges: ['Spezialität', 'Scharf'],
     icon: <Flame className="text-red-600" size={20} />
