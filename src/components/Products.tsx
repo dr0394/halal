@@ -1,4 +1,4 @@
-import { Flame, Award, ArrowRight, UtensilsCrossed } from 'lucide-react';
+import { Flame, Award } from 'lucide-react';
 import goulashImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew.jpg';
 import porkoltImage from '../assets/traditional-hungarian-meal-with-beef-chuck-steak-potatoes-paprika-goulash-soup-stew copy.jpg';
 import langosImage from '../assets/crusty-hungarian-langos-with-cream-ham-grated-cheese-corn-greased-with-garlic.jpg';
@@ -101,13 +101,9 @@ export default function Products() {
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-2 sm:mb-3 uppercase tracking-wide">
                   {product.name}
                 </h3>
-                <p className="text-sm sm:text-base text-zinc-400 leading-relaxed mb-4 sm:mb-6 flex-1">
+                <p className="text-sm sm:text-base text-zinc-400 leading-relaxed flex-1">
                   {product.description}
                 </p>
-                <a href="mailto:zoltan.f@hotmail.de" className="w-full bg-red-600 hover:bg-red-700 text-white py-2.5 sm:py-3 rounded-lg font-bold text-sm sm:text-base uppercase tracking-wide transition-colors flex items-center justify-center gap-2">
-                  Anfragen
-                  <ArrowRight size={16} />
-                </a>
               </div>
             </div>
           ))}
