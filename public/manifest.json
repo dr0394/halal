@@ -1,0 +1,22 @@
+{
+  "name": "Halal Currywurst - Deutschlands erste Halal Currywurst Franchise",
+  "short_name": "Halal Currywurst",
+  "description": "100% Halal zertifiziert, über 50 Standorte deutschlandweit. Beste Currywurst und ungarische Spezialitäten.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ef4444",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "restaurant", "business"],
+  "lang": "de",
+  "dir": "ltr",
+  "scope": "/"
+}
