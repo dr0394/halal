@@ -94,7 +94,7 @@ export default function Footer() {
         <div className="border-t border-zinc-900 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-zinc-500 text-sm">
-              © 2025 Big Daddys Burgerhouse. Alle Rechte vorbehalten.
+              © 2026 Big Daddys Burgerhouse. Alle Rechte vorbehalten.
             </div>
             <div className="text-zinc-500 text-sm">
               Seit 2009 in Passau
